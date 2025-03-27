@@ -1,5 +1,4 @@
 # aster-connector-python
-
 [![Python 3.6](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -166,4 +165,3 @@ More websocket examples are available in the `examples` folder
 
 Once connected, the websocket server sends a ping frame every 3 minutes and requires a response pong frame back within
 a 10 minutes period. This package handles the pong responses automatically.
-
