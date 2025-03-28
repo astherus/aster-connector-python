@@ -45,7 +45,7 @@ print(response)
 Please find `examples` folder to check for more endpoints.
 
 ### Base URL
-`https://fapi.astherus.finance`
+`https://fapi.asterdex.com`
 
 ### Optional parameters
 

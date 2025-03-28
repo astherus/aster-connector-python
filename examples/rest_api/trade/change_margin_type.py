@@ -8,7 +8,7 @@ config_logging(logging, logging.DEBUG)
 key = ""
 secret = ""
 
-client = Client(key, secret,base_url="https://fapi.astherus.finance")
+client = Client(key, secret,base_url="https://fapi.asterdex.com")
 
 try:
     response = client.change_margin_type(symbol='BTCUSDT',marginType="ISOLATED",recvWindow=6000)

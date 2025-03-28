@@ -4,7 +4,7 @@ from aster.api import API
 class Client(API):
     def __init__(self, key=None, secret=None, **kwargs):
         if "base_url" not in kwargs:
-            kwargs["base_url"] = "https://fapi.astherus.finance"
+            kwargs["base_url"] = "https://fapi.asterdex.com"
         super().__init__(key, secret, **kwargs)
 
     # MARKETS

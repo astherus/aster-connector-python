@@ -2,7 +2,7 @@ from aster.websocket.websocket_client import AsterWebsocketClient
 
 
 class WebsocketClient(AsterWebsocketClient):
-    def __init__(self, stream_url="wss://fstream.astherus.finance"):
+    def __init__(self, stream_url="wss://fstream.asterdex.com"):
         super().__init__(stream_url)
 
     def agg_trade(self, symbol: str, id: int, callback, **kwargs):

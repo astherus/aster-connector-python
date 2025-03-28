@@ -8,7 +8,7 @@ config_logging(logging, logging.DEBUG)
 key = ""
 secret = ""
 
-client = Client(key, secret,base_url="https://fapi.astherus.finance")
+client = Client(key, secret,base_url="https://fapi.asterdex.com")
 try:
     response = client.get_position_margin_history(symbol='BTCUSDT',recvWindow=6000)
     logging.info(response)

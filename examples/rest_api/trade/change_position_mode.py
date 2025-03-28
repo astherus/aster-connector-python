@@ -8,7 +8,7 @@ config_logging(logging, logging.DEBUG)
 key = ""
 secret = ""
 
-client = Client(key, secret, base_url="https://fapi.astherus.finance")
+client = Client(key, secret, base_url="https://fapi.asterdex.com")
 
 try:
     response = client.change_position_mode(dualSidePosition = "true", recvWindow=2000)

@@ -8,7 +8,7 @@ config_logging(logging, logging.DEBUG)
 key = ""
 secret = ""
 
-client = Client(key, secret, base_url="https://fapi.astherus.finance")
+client = Client(key, secret, base_url="https://fapi.asterdex.com")
 
 try:
     response = client.change_multi_asset_mode(multiAssetsMargin="true", recvWindow=2000)

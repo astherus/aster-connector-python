@@ -7,5 +7,5 @@ config_logging(logging, logging.DEBUG)
 
 key = ""
 
-client = Client(key, base_url="https://fapi.astherus.finance")
+client = Client(key, base_url="https://fapi.asterdex.com")
 logging.info(client.new_listen_key())
